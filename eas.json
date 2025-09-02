@@ -20,18 +20,6 @@
     }
   },
   "submit": {
-    "production": {
-      "ios": {
-        "bundleIdentifier": "com.drmurali.aihairstylegenerator",
-        "appStoreConnect": {
-          "ascAppId": "your-asc-app-id",
-          "ascApiKey": "path-to-your-asc-api-key.json"
-        }
-      },
-      "android": {
-        "package": "com.drmurali.aihairstylegenerator",
-        "serviceAccountKeyPath": "path-to-your-service-account-key.json"
-      }
-    }
+    "production": {}
   }
 }
