@@ -3,6 +3,7 @@
     "name": "AI Hairstyle Generator",
     "slug": "ai-hairstyle-generator",
     "version": "1.0.0",
+    "sdkVersion": "52.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "splash": {
