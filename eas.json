@@ -11,14 +11,18 @@
     "preview": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk"
-      }
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "node": "20.11.1"
     },
     "production": {
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
       },
-      "channel": "production"
+      "channel": "production",
+      "node": "20.11.1"
     }
   },
   "submit": {
